@@ -9,7 +9,7 @@ class Hero:
         print('healed ' + str(self.hp + 100))
     def greetings(self):
         print('my name is ' + self.name)
-    def damage_up(self):
+    def two_damage(self):
         print('damage boosted: ' + str(self.damage * 2))
     def brand_phrase(self):
         print('good will win')
@@ -22,7 +22,7 @@ gon.heal()
 
 frik = Hero(name='Frik ', nickname='monday ', hp=200, damage=100)
 print(frik.name,frik.nickname,frik.hp,frik.damage)
-frik.damage_up()
+frik.two_damage()
 
 john = Hero(name='John ', nickname='sunday ', hp=150, damage=110)
 print(john.name,john.nickname,john.hp,john.damage)
