@@ -11,12 +11,11 @@ class Hero:
         print('my name is ' + self.name)
     def two_damage(self):
         print('damage boosted: ' + str(self.damage * 2))
-    def brand_phrase(self):
+    def True_phrase(self):
         self.fly = False
         if self.fly == False:
             self.fly = True
-            print(f'fly in the true')
-
+            print(f'fly in the freedom')
 
 # gon = Hero(name='Gon ', nickname='wednsday ', hp=100, damage=10)
 # print(gon.name, gon.nickname, gon.hp, gon.damage)
