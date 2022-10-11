@@ -37,7 +37,7 @@ class cosmic(Hero):
 
 ear = earth('semo', 'hopper', 10, 1)
 print(ear.name, ear.nickname, ear.fly)
-print(ear.brand_phrase())
+print(ear.True_phrase())
 
 aer = air('erno', 'frierr', 12, 2)
 print(aer.name, aer.nickname, aer.fly)
