@@ -12,22 +12,24 @@ class Hero:
     def two_damage(self):
         print('damage boosted: ' + str(self.damage * 2))
     def brand_phrase(self):
-        print('good will win')
+        self.fly = False
+        if self.fly == False:
+            self.fly = True
+            print(f'fly in the true')
 
 
+# gon = Hero(name='Gon ', nickname='wednsday ', hp=100, damage=10)
+# print(gon.name, gon.nickname, gon.hp, gon.damage)
+# gon.heal()
 
-gon = Hero(name='Gon ', nickname='wednsday ', hp=100, damage=10)
-print(gon.name, gon.nickname, gon.hp, gon.damage)
-gon.heal()
+# frik = Hero(name='Frik ', nickname='monday ', hp=200, damage=100)
+# print(frik.name,frik.nickname,frik.hp,frik.damage)
+# frik.two_damage()
 
-frik = Hero(name='Frik ', nickname='monday ', hp=200, damage=100)
-print(frik.name,frik.nickname,frik.hp,frik.damage)
-frik.two_damage()
+# john = Hero(name='John ', nickname='sunday ', hp=150, damage=110)
+# print(john.name,john.nickname,john.hp,john.damage)
+# frik.greetings()
 
-john = Hero(name='John ', nickname='sunday ', hp=150, damage=110)
-print(john.name,john.nickname,john.hp,john.damage)
-frik.greetings()
-
-donna = Hero(name='Donna ', nickname='tuesday ', hp=130, damage=190)
-print(donna.name,donna.nickname,donna.hp,donna.damage)
-donna.brand_phrase()
+# donna = Hero(name='Donna ', nickname='tuesday ', hp=130, damage=190)
+# print(donna.name,donna.nickname,donna.hp,donna.damage)
+# donna.brand_phrase()
